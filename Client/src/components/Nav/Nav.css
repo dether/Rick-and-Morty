@@ -1,0 +1,84 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.5);
+    padding: 5px;
+    position: relative;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    
+}
+
+.form-button1 {
+    background-color: transparent;
+    border: none;
+    color:rgb(54, 245, 57);/*  */
+    font-size: 16px;
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.form-button1:hover {
+    color:rgb(54, 245, 57);
+    
+}
+
+nav button {
+    border: 7px solid rgb(255, 255, 255);
+    border-radius: 10%;
+    background-color: rgb(54, 245, 57);
+    border-color: rgb(54, 245, 57);
+    color:black ;
+
+
+}
+
+nav button a {
+    border: 7px solid rgb(255, 255, 255);
+    border-radius: 10%;
+    background-color: rgb(54, 245, 57);
+    border-color: rgb(54, 245, 57);
+    color:black ;
+    display: block;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+.search-container {
+    margin-left: 80px;
+    margin-right: 80px;
+    width: 300px;
+ }
+
+ .form-button2 {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  .form-button3 {
+    border: 7px solid rgb(255, 255, 255);
+    border-radius: 10%;
+    background-color: rgb(54, 245, 57);
+    border-color: rgb(54, 245, 57);
+    color:black ;
+  }

@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://ic.c4assets.com/brands/rick-and-morty/25061866-e35b-405b-9cb4-cb71748e9592.jpg?interpolation=progressive-bicubic&output-format=jpeg&output-quality=90&resize=1160px:*');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; /* o contain */
+  background-attachment: fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,19 @@
+.detail-container {
+    border: 2px solid black; /*  ajusta el grosor y color del borde */
+    padding: 30px;  /* ajusta el espacio entre el borde y el contenido interno */
+    max-width: 400px;  /* 100% ajusta el ancho máximo del componente */
+    margin: auto;  /* centra el contenedor horizontalmente */
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 5%;
+    background-color: rgba(0, 0, 0, 0.71);
+    border-color: rgb(54, 245, 57);
+    border-style: solid;
+}
+.detail-container img {
+    max-width: 100%;  /* ajusta el tamaño de la imagen para que se ajuste dentro del borde */
+}
+
+.detail-container h1, .detail-container p {
+    color: rgb(255, 255, 255);  /* ajusta el color del texto */
+    margin: 5px 0;  /* ajusta el espacio entre los elementos de texto */
+}

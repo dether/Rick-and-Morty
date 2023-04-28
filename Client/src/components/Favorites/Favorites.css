@@ -1,0 +1,19 @@
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.etiqueta {
+    color: white; /* Establece el color del texto en blanco */
+    border: 2px solid white; /* Establece un borde blanco de 2 píxeles */
+    background-color: rgba(0, 0, 0, 0.8); /* Establece un fondo transparente oscuro */
+    padding: 10px; /* Agrega un espacio de relleno interno de 10 píxeles */
+}
+.Favcontainer{
+        text-align: center;
+        color:white;
+        box-sizing: border-box;
+         border: 10px solid rgb(255, 255, 255);
+         border-radius: 5%;
+         background-color: rgba(0, 0, 0, 0.71);
+         border-color: rgb(54, 245, 57);
+}
