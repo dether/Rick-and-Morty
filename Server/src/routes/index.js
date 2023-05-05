@@ -1,17 +1,15 @@
-const router = require("express").Router()
-/* const express = require("express");
-const router = express.Router(); */
+/* const router = require("express").Router() */
+const express = require("express");
+const router = express.Router();
 
 // controladores
-const { getCharById } = require("../controller/getCharById");
-const { login } = require("../controller/login");
-const { postFav, deleteFav } = require("../controller/handleFavorites");
+const characters = require("./character");
+const favorites = require("./favorites");
+const login = require("./login");
 
-// Rutas
-router.get('/character/:id', getCharById);
-router.get('/login', login);
-router.post('/fav', postFav);
-router.delete('/fav/:id', deleteFav); 
+router.use("/character", characters);
+router.use("/fav", favorites);
+router.use("/login", login);
 
 /* router.get('/character/:id', (req , res) => {
     getCharById(req, res);

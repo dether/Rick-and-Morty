@@ -1,10 +1,11 @@
-const server = require("./app")
+const server = require("./app") // esta es la config de nuestro server
+const { conn } = require("./DB_connection") // esta es la config de nuestra DB
+
 const PORT = 3001;
 
-
-
-server.listen(PORT, () => {
-  console.log(`Server raised in port: ${PORT}`);
+server.listen(PORT, async () => {
+  console.log(`Server raised in port: http://localhost:${PORT}`);
+  await conn.sync({ force: true });
 });
 
 
